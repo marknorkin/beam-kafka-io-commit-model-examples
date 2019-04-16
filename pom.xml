@@ -4,15 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.marknorkin.beam.directrunner.sample</groupId>
-    <artifactId>commitoffsetsinfinalize-missed</artifactId>
+    <groupId>com.marknorkin.beam</groupId>
+    <artifactId>beam-kafka-io-commit-model-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <beam.version>2.9.0</beam.version>
 
         <guava.version>20.0</guava.version>
-        <gson.version>2.2.4</gson.version>
         <jackson.version>2.9.5</jackson.version>
 
         <junit.version>4.12</junit.version>
@@ -36,12 +35,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
